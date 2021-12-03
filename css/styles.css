@@ -14,4 +14,16 @@ nav {
   font-size: 28px;
   font-family: serif;
   padding: 0, 100%;
+  line-height: 85px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 75px;
+  margin: 0 5px;
+  color: white;
 }
