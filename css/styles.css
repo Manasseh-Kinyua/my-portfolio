@@ -8,3 +8,10 @@
 nav {
   background-color: purple;
 }
+
+.logo {
+  color: white;
+  font-size: 28px;
+  font-family: serif;
+  padding: 0, 100%;
+}
