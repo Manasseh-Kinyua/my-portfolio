@@ -24,6 +24,19 @@ nav ul {
 nav ul li {
   display: inline-block;
   line-height: 75px;
-  margin: 0 5px;
+  margin: 0 8px;
+}
+
+nav ul li a {
   color: white;
+  padding: 7px 13px;
+}
+
+a:hover{
+  background-color: black;
+  transition: 0.4s ease;
+}
+
+a.active {
+  background-color: black;
 }
