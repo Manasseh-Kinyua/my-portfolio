@@ -73,5 +73,59 @@ a.active {
 }
 
 .interest-sec {
-  background-image: url(/images/profile.jpg);
+  background-image: url(/images/backg.png);
 }
+
+.interest-sec .info {
+  background-color: yellow;
+  padding: 30px;
+  border-radius: 100px;
+  border:15px solid white;
+  margin-left: 50px;
+  float: left;
+  width: 25%;
+}
+
+.interest-sec .info2 {
+  background-color: yellow;
+  padding: 30px;
+  border-radius: 100px;
+  border:15px solid white;
+  margin-left: 50px;
+  float: left;
+  width: 25%;
+}
+
+.info h2 {
+  text-align: center;
+}
+
+.info2 h2 {
+  text-align: center;
+}
+.info p {
+  padding: 15px;
+  text-decoration-style: wavy;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.info2 p {
+  padding: 15px;
+  text-decoration-style: wavy;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+
+.interest-sec .p-photo {
+  float: right;
+  margin-right: 200px;
+}
+
+.p-photo img {
+  border: 20px solid white;
+  border-radius: 100px;
+  height: 670px;
+  }
