@@ -71,3 +71,7 @@ a.active {
 .home .name {
   margin-top: 0px;
 }
+
+.interest-sec {
+  background-image: url(/images/profile.jpg);
+}
