@@ -72,10 +72,6 @@ a.active {
   margin-top: 0px;
 }
 
-.interest-sec {
-  background-image: url(/images/backg.png);
-}
-
 .interest-sec .info {
   background-color: yellow;
   padding: 30px;
@@ -117,8 +113,6 @@ a.active {
   font-weight: bold;
 }
 
-
-
 .interest-sec .p-photo {
   float: right;
   margin-right: 200px;
@@ -128,4 +122,10 @@ a.active {
   border: 20px solid white;
   border-radius: 100px;
   height: 670px;
+  }
+
+  .abtme {
+    margin: 400px;
+    padding: 400px;
+    text-align: left;
   }
