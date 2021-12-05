@@ -197,3 +197,66 @@ h1 {
   font-style: bold;
   font-size: 80px;
 }
+
+#hobbies {
+  background-image: url('../images/hobby.jpg');
+  height: 1155px;
+}
+#hbd {
+  height:350px;
+}
+#chess {
+  background-image: url('../images/chess.jpeg');
+  margin-left: 30px;
+  margin-top: 30px;
+  background-size: cover;
+  border: 10px solid white;
+  border-radius: 20px;
+}
+#ride {
+  background-image: url('../images/bike.jpg');
+  margin-left: 30px;
+  background-size: cover;
+  border: 10px solid black;
+  border-radius: 20px;
+}
+#swim {
+  background-image: url('../images/swimming.jpg');
+  margin-left: 30px;
+  background-size: cover;
+  border: 10px solid black;
+  border-radius: 20px;
+}
+#read {
+  background-image: url('../images/novel.jpg');
+  margin-left: 30px;
+  margin-top: 30px;
+  background-size: cover;
+  border: 10px solid black;
+  border-radius: 20px;
+}
+#ball {
+  background-image: url('../images/ball.png');
+  margin-left: 30px;
+  margin-top: 30px;
+  background-size: cover;
+  border: 10px solid black;
+  border-radius: 20px;
+}
+#hobbies a{
+  font-size: 30px;
+  color: coral;
+  text-decoration: none;
+}
+#hobbies a.hover {
+  color: skyblue;
+}
+#contacts {
+  text-align: center;
+  background-color: gray;
+}
+#contacts a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
