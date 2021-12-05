@@ -161,22 +161,31 @@ a.active {
 
 #pjs {
   background-image: url('../images/pink.jpg');
+  font-size: 25px;
+  height: 1000px;
 }
 
 #pjs #cats {
-  height:400px;
+  height:700px;
   background-color: white;
+  margin-left: 30px;
+  border: 10px dotted gray;
+  border-radius: 20px;
 
 }
 #pjs #first {
-  height:400px;
+  height:700px;
   background-color: gray;
   margin-left: 30px;
-  border: 10px dotted white;
+  border: 10px dotted beige;
   border-radius: 20px;
 }
 #pjs #pets {
-  height:400px;
+  height:700px;
   background-color: beige;
   margin-left: 30px;
+  margin-left: 30px;
+  border: 10px dotted gray;
+  border-radius: 20px;
+
 }
