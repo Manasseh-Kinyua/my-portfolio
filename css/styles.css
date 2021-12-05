@@ -1,24 +1,15 @@
-* {
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
-nav {
+.navbar {
   background-color: purple;
+  height: 80px;
 }
 
 .logo {
   color: white;
-  font-size: 28px;
-  font-family: serif;
-  padding: 0, 100%;
-  line-height: 85px;
-}
-
-nav ul {
-  float: right;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 20px;
 }
 
 nav ul li {
@@ -30,11 +21,13 @@ nav ul li {
 nav ul li a {
   color: white;
   padding: 7px 13px;
+  text-decoration: none;
 }
 
-a:hover{
+a:hover {
   background-color: black;
   transition: 0.4s ease;
+  color: white;
 }
 
 a.active {
@@ -42,90 +35,146 @@ a.active {
 }
 
 .home {
-  background-image: url(/images/mug.jpg);
+  background-image: url('../images/cup.jpg');
   height: 800px;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.home img {
-  margin-left: 20px;
-  width: 300px;
-  border-radius: 150px;
-  margin-left: 760px;
-  margin-right: auto;
-  margin-top: 20px;
-}
-
-.home.me img {
-  text-align: center;
-}
-
 .home .name p {
   color: white;
   text-align: center;
-  font-family: cursive;
+  font-family: fantasy;
   font-size: 100px;
 }
 
-.home .name {
-  margin-top: 0px;
+.home .name h1 {
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  font-size: 101px
 }
 
-.interest-sec .info {
-  background-color: yellow;
+.home .name p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#interest {
+  background-image: url('../images/bkg.jpeg');
+  height: 850px;
+}
+
+#interest .info {
+  background-color: skyblue;
   padding: 30px;
   border-radius: 100px;
-  border:15px solid white;
+  border:15px solid skyblue;
   margin-left: 50px;
+  margin-top: 20px;
   float: left;
   width: 25%;
 }
 
-.interest-sec .info2 {
-  background-color: yellow;
+#interest .info2 {
+  background-color: skyblue;
   padding: 30px;
   border-radius: 100px;
-  border:15px solid white;
+  border:15px solid skyblue;
   margin-left: 50px;
+  margin-top: 20px;
   float: left;
   width: 25%;
 }
 
-.info h2 {
-  text-align: center;
-}
-
-.info2 h2 {
-  text-align: center;
-}
-.info p {
-  padding: 15px;
-  text-decoration-style: wavy;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.info2 p {
-  padding: 15px;
-  text-decoration-style: wavy;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.interest-sec .p-photo {
+#interest img {
   float: right;
-  margin-right: 200px;
-}
-
-.p-photo img {
   border: 20px solid white;
+  margin-right: 80px;
   border-radius: 100px;
   height: 670px;
-  }
+  width: 600px;
+  margit-top: 50px;
+  margin-left: 10px;
+}
 
-  .abtme {
-    margin: 400px;
-    padding: 400px;
-    text-align: left;
-  }
+#wrapper {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('../images/1.jpg');
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+#wrapper .inf {
+  padding: 30px 100px;
+}
+
+.inf article h1 {
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.inf article h1::after {
+  content: "";
+  height: 5px;
+  width: 225px;
+  background-color: white;
+  display: block;
+  margin: auto;
+}
+
+.inf article img {
+  height: 200px;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-top: 60px;
+}
+
+#wrapper blockquote {
+  font-family: sans-serif;
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+#wrapper h5 {
+  text-transform: uppercase;
+  font-size: 28px;
+  margin-top: 30px;
+  letter-spacing: 2px;
+}
+
+#wrapper p {
+  font-size: 20px;
+
+}
+
+#pjs {
+  background-image: url('../images/pink.jpg');
+
+}
+
+#pjs #cats {
+  height:200px;
+  background-color: white;
+
+}
+#pjs #first {
+  height:200px;
+  background-color: gray;
+}
+#pjs #pets {
+  height:200px;
+  background-color: beige;
+}
