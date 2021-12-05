@@ -157,24 +157,26 @@ a.active {
 
 #wrapper p {
   font-size: 20px;
-
 }
 
 #pjs {
   background-image: url('../images/pink.jpg');
-
 }
 
 #pjs #cats {
-  height:200px;
+  height:400px;
   background-color: white;
 
 }
 #pjs #first {
-  height:200px;
+  height:400px;
   background-color: gray;
+  margin-left: 30px;
+  border: 10px dotted white;
+  border-radius: 20px;
 }
 #pjs #pets {
-  height:200px;
+  height:400px;
   background-color: beige;
+  margin-left: 30px;
 }
